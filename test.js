@@ -6,7 +6,10 @@ var assert = require('assert');
 var readChunk = require('read-chunk');
 var isHeic = require('./');
 
-function check (filename, offset = 0, len = 24) {
+function check (filename, offset, len) {
+	if (offset == null) offset = 0;
+	if (len == null) len = 24;
+
 	return isHeic(readChunk.sync(filename, offset, len));
 }
 
