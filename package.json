@@ -1,0 +1,50 @@
+{
+  "name": "is-heic",
+  "version": "1.0.0",
+  "description": "Check if a Buffer/Uint8Array is a HEIC image",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": {
+    "name": "Oleh Aleinyk",
+    "email": "oleg.aleynik@gmail.com",
+    "url": "https://github.com/oaleynik"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oaleynik/is-heic.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "binary",
+    "buffer",
+    "check",
+    "detect",
+    "exif",
+    "heic",
+    "image",
+    "img",
+    "is",
+    "photo",
+    "pic",
+    "picture",
+    "type",
+    "uint8array"
+  ],
+  "devDependencies": {
+    "mocha": "^4.1.0",
+    "read-chunk": "^2.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/oaleynik/is-heic/issues"
+  },
+  "homepage": "https://github.com/oaleynik/is-heic#readme",
+  "dependencies": {}
+}
