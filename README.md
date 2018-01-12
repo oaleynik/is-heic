@@ -1,4 +1,4 @@
-# is-heic
+# is-heic [![Build Status](https://travis-ci.org/oaleynik/is-heic.svg?branch=master)](https://travis-ci.org/oaleynik/is-heic)
 
 > Check if a Buffer/Uint8Array is a HEIC image (inspired by [is-jpg](https://github.com/sindresorhus/is-jpg))
 
