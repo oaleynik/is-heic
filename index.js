@@ -5,5 +5,9 @@ module.exports = function (buffer) {
 		return false;
 	}
 
-	return buffer[20] === 0x68 && buffer[21] === 0x65 && buffer[22] === 0x69 && buffer[23] === 0x63;
+	const [b1, b2, b3, b4] = Array.from(buffer.slice(20, 24));
+	return (
+		(b1 === 0x68 && b2 === 0x65 && b3 === 0x69 && b4 === 0x63) ||
+		(b1 === 0x6d && b2 === 0x69 && b3 === 0x61 && b4 === 0x66)
+	);
 };
